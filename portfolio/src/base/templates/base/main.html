@@ -1,0 +1,61 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="{% static '/css/base.css' %}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+</head>
+<body class="bd">
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body" id="profile_wrapper">
+                    <img id="profile" src="{% static 'images/Richard_Hendricks.jpg' %}" alt="">
+                    <hr>
+                    <p><b>Hello guys I'm Aboubakr</b></p>
+                    <p>I'm 16yo and I'm a highschool student , I'm passionate about programming and coding , especially AI and ML</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body">
+                    <h5>MORE ABOUT ME</h5>
+                    <hr>
+                    <p>Actually im not a programmer yet , because i can do just the basic stuff like a calculator , youtube downloader ,
+                        to do app , registration app , and some stuff like that , i did this portfolio just for practicing that's all
+                    </p>
+                    <p> <strong> Social media : </strong> </p>
+                    <ol>
+                        <a href="https://www.facebook.com/Aboubakr.ElHabti" target="blank"><li><img class="social" src="{% static 'images/facebook.png' %}" alt=""></li></a>
+                        <br>
+                        <a href="https://twitter.com/AboubakrHabti" target="blank"><li><img class="social" src="{% static 'images/twitter.png' %}" alt=""></li></a>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body"></div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body"></div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body"></div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body"></div>
+            </div>
+        </div> -->
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.bd {
+    background-color: black;
+}
+
+#profile {
+    height: 12em;
+    width: 12em;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#profile_wrapper {
+    text-align: center;
+}
